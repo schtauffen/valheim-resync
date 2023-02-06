@@ -1,7 +1,6 @@
 ﻿// Resync
-// a Valheim mod skeleton using Jötunn
 // 
-// File:    Resync.cs
+// File:    valheim-resync.cs
 // Project: Resync
 
 using BepInEx;
@@ -15,7 +14,7 @@ namespace Resync
     //[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
     internal class Resync : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.jotunn.Resync";
+        public const string PluginGUID = "com.schtauffen.resync";
         public const string PluginName = "Resync";
         public const string PluginVersion = "0.0.1";
         
@@ -26,7 +25,7 @@ namespace Resync
         private void Awake()
         {
             // Jotunn comes with its own Logger class to provide a consistent Log style for all mods using it
-            Jotunn.Logger.LogInfo("ModStub has landed");
+            Jotunn.Logger.LogInfo("Resync has landed");
             
             // To learn more about Jotunn's features, go to
             // https://valheim-modding.github.io/Jotunn/tutorials/overview.html
